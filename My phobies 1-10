@@ -1,0 +1,28 @@
+// Minhas phobies de 1-10 utilizando JSON, variáveis e operadores lógicos.
+
+let phobies = [
+    {"nome" : "Razor Mounth", "vida" : 672, "locomoção" : "2/terrestre", "distanciaDeAtaque" : "1", "dano" : 336, "tipo" : "comum/monstro", "nivel" : "5"}, //ok
+    {"nome" : "Contortio", "vida" : 633, "locomoção" : "2/terrestre", "distanciaDeAtaque" : "1", "dano" : 357, "tipo" : "comum/zumbi", "nivel" : "6"},
+    {"nome" : "Maggie", "vida" : 654, "locomoção" : "2/aéreo", "distanciaDeAtaque" : "1", "dano" : 491, "tipo" : "comum/monstro", "nivel" : "4"},
+    {"nome" : "K-9000", "vida" : 1232, "locomoção" : "2/terrestre", "distanciaDeAtaque" : "1", "dano" : 420, "tipo" : "comum/robô", "nivel" : "5"},
+    {"nome" : "Cassowary", "vida" : 709, "locomoção" : "2/terrestre", "distanciaDeAtaque" : "1", "dano" : 464, "tipo" : "comum/zumbi", "nivel" : "4", "habilidade" : "Caw Claw, 464 de dano e 2 de distância de ataque"},
+    {"nome" : "ConttonTale", "vida" : 654, "locomoção" : "2/terrestre", "distanciaDeAtaque" : "1", "dano" : 327, "tipo" : "incomum/zumbi", "nivel" : "4", "bonus" : "Ressucita com 164, quan não pisado"},
+    {"nome" : "BoMangles", "vida" : 1782, "locomoção" : "1/terrestre", "distanciaDeAtaque" : 2, "dano" : 483, "tipo" : "comum/robô", "nivel" : "6"},
+    {"nome" : "Jar Connon", "vida" : 458, "locomoção" : "2/terrestre", "distanciaDeAtaque" : 3, "dano" : 240, "tipo" : "raríssima/robô", "nivel" : "4"},
+];
+
+let phobieEscolhida = phobies[4]
+console.log("O " + phobieEscolhida.nome + " possui o total de: " + phobieEscolhida.vida + " para vida, " + phobieEscolhida.locomoção + " para locomoção, " + phobieEscolhida.distanciaDeAtaque + " para distância de ataque, " + phobieEscolhida.dano + " total de dano, " + phobieEscolhida.tipo + " referente ao seu tipo " + phobieEscolhida.nivel + " referente ao seu nível" )
+
+if (phobieEscolhida.tipo === "comum/robô" || phobieEscolhida.tipo ===  "raríssimo/robô")
+{
+    console.log ("Phobies do tipo ROBÔ sofrem dano elétrico")
+}
+else if ( phobieEscolhida.tipo == "comum/zumbi" || phobieEscolhida.tipo ==  "incomum/zumbi")
+{
+    console.log ("Phobies do tipo zumbi sugam 40% dos pontos de vida que os inimigos perdem com seu ataque.")
+}
+else if (phobieEscolhida.tipo === "comum/monstro")
+{
+    console.log ("Phobies do tipo monstro não possuem nenhum efeito adicional")
+}
