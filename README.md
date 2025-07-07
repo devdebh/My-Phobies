@@ -64,7 +64,6 @@ Embora seja um projeto de estudo pessoal, feedbacks, sugestões e ideias são se
 Sinta-se à vontade para abrir issues, comentar ou adaptar o exercício para seus próprios testes.
 
 
-![Phobie personagem](./phobiebatula.webp)
-
 🎮 Inspirado no universo criativo de **Phobies**  
 Feito com prática, lógica e 💜 por Déborah
+![Phobie personagem](./phobiebatula.webp)
