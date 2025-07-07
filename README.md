@@ -66,4 +66,7 @@ Sinta-se à vontade para abrir issues, comentar ou adaptar o exercício para seu
 
 🎮 Inspirado no universo criativo de **Phobies**  
 Feito com prática, lógica e 💜 por Déborah
+
+---
+
 ![Phobie personagem](./phobiebatula.webp)
